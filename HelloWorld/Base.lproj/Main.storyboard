@@ -20,14 +20,6 @@
                             <imageView hidden="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ace_one_piece-wallpaper-1280x800" translatesAutoresizingMaskIntoConstraints="NO" id="2tf-BM-c2B">
                                 <rect key="frame" x="-20" y="147" width="424" height="229"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wej-vz-Zuk">
-                                <rect key="frame" x="92" y="583" width="259" height="79"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
-                                <state key="normal" title="Pleb Button"/>
-                                <connections>
-                                    <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JqC-x1-Oak"/>
-                                </connections>
-                            </button>
                             <button hidden="YES" opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Qd-uW-FYt">
                                 <rect key="frame" x="55" y="317" width="300" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
@@ -35,6 +27,14 @@
                                 <state key="normal" title="Blazit.420.Swag"/>
                                 <connections>
                                     <action selector="BlazeOut:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CTB-md-fiC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wej-vz-Zuk">
+                                <rect key="frame" x="39" y="458" width="259" height="79"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="49"/>
+                                <state key="normal" title="Is A Button"/>
+                                <connections>
+                                    <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JqC-x1-Oak"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -49,7 +49,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="98.5" y="316.5"/>
+            <point key="canvasLocation" x="138.5" y="318.5"/>
         </scene>
     </scenes>
     <resources>
